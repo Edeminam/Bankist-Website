@@ -511,7 +511,7 @@ console.log(h1.parentElement.children);
 [...h1.parentElement.children].forEach(function (el) {
   if (el !== h1) el.style.transform = 'scale(0.5)';
 });
-*/
+
 
 //Lifecycle DOM
 document.addEventListener('DOMContentLoaded', function (e) {
@@ -527,3 +527,4 @@ window.addEventListener('beforeunload', function (e) {
   console.log(e);
   e.returnValue = '';
 });
+*/
